@@ -25,6 +25,8 @@ export default function Edit() {
     })
 
     let data = {name,email,body};
+    console.log(data);
+    
 
     let edit = (e)=>{
         e.preventDefault();
